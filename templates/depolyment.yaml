@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mywebsite3
+  name: mywebsite5
 spec:
   replicas: 5
   selector:
@@ -13,7 +13,7 @@ spec:
         type: backend
     spec:
       containers:
-        - name: container3
+        - name: container5
           image: patillokesh/mywebsite3
           ports:
             - containerPort: 80
