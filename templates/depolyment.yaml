@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mywebsite5
+  name: mywebsite3
 spec:
   replicas: 5
   selector:
